@@ -9,3 +9,5 @@ evidence
 bower.json
 .idea
 *.iml
+
+**/3rdparty/**/*.jar

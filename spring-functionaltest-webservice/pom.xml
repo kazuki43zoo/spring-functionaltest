@@ -39,6 +39,16 @@
             <groupId>org.terasoluna.gfw</groupId>
             <artifactId>terasoluna-gfw-recommended-dependencies</artifactId>
             <type>pom</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sf.dozer</groupId>
+                    <artifactId>dozer</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>net.sf.dozer</groupId>
+                    <artifactId>dozer-spring</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- == End TERASOLUNA == -->
 

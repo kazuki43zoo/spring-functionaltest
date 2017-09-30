@@ -570,7 +570,18 @@
                 <artifactId>jetty-xml</artifactId> 
                 <version>${jetty.version}</version> 
             </dependency> 
-            <!-- == End Jetty Proxy Server == --> 
+            <!-- == End Jetty Proxy Server == -->
+
+            <dependency>
+                <groupId>com.github.dozermapper</groupId>
+                <artifactId>dozer-core</artifactId>
+                <version>${dozer.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.dozermapper</groupId>
+                <artifactId>dozer-spring</artifactId>
+                <version>${dozer.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
@@ -613,6 +624,7 @@
         <cxf-rt.version>3.1.4</cxf-rt.version>
         <bouncycastle.version>1.38</bouncycastle.version>
         <jetty.version>9.2.14.v20151106</jetty.version>
+        <dozer.version>6.1.0</dozer.version>
         <!-- == Project Properties == -->
         <project.env.main.directory>src/main</project.env.main.directory>
         <project.env.target.name>spring-functionaltest-env</project.env.target.name>
